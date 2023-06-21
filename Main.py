@@ -19,7 +19,6 @@ from Extraction_Files.Extract_Table_Data import InvoiceTable
 from Extraction_Files.Invoice_Desc import invoice_details
 from Extraction_Files.Customer_Details import Customer
 from Extraction_Files.Business_Details import Business_details
-from Extraction_Files.Tax_Details import ExtractTax
 
 # Configure logging
 logging.basicConfig(level=os.environ.get("LOGLEVEL"))
