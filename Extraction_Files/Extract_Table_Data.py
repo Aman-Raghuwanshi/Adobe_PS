@@ -5,7 +5,6 @@ class InvoiceTable:
     def __init__(self):
         pass
 
-    @staticmethod
     def get_output(zip_file_path):
         """
         Extracts and processes invoice data from a ZIP archive containing an Excel file.
