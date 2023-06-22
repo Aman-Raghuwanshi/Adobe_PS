@@ -10,7 +10,6 @@ class invoice_details :
         """
         pass
 
-    @staticmethod
     def invoice(zip_file_path):
         """
         Extracts invoice details from the specified zip file.
