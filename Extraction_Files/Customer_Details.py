@@ -6,7 +6,6 @@ class Customer:
     def __init__(self):
         pass
 
-    @staticmethod
     def customer_details(zip_file_path):
         """
         Extracts customer details from a structured JSON file inside a ZIP archive.
