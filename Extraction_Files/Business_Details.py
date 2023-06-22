@@ -7,7 +7,6 @@ class Business_details:
     def __init__(self):
         pass
 
-    @staticmethod
     def get_details(zip_file_path):
         """
         Extracts business details from a structured JSON file within a given zip file.
